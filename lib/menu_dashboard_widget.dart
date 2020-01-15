@@ -212,7 +212,7 @@ class _MenuDashBoardState extends State<MenuDashBoard>
                       itemBuilder: (context, index) {
                         return ListTile(
                           leading: Icon(Icons.verified_user),
-                          title: Text("Ogrenci $index"),
+                          title: Text("Ogrenci $index",style: TextStyle(fontSize: 24),),
                           trailing: Icon(Icons.add),
                         );
                       },
